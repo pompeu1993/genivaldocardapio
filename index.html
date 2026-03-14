@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Romã | Cardápio Digital</title>
+    <meta name="description" content="Cardápio digital do Restaurante Romã. Confira nossos pratos de massas, vinhos e a autêntica culinária italiana. Peça agora!" />
+    <meta name="keywords" content="restaurante romã, cardápio digital, comida italiana, massas, vinhos, restaurante italiano" />
+    <meta name="author" content="Restaurante Romã" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://restauranteroma.com.br/" />
+    <meta property="og:title" content="Restaurante Romã | Cardápio Digital" />
+    <meta property="og:description" content="Cardápio digital do Restaurante Romã. Confira nossos pratos de massas, vinhos e a autêntica culinária italiana." />
+    <meta property="og:image" content="/logo.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://restauranteroma.com.br/" />
+    <meta property="twitter:title" content="Restaurante Romã | Cardápio Digital" />
+    <meta property="twitter:description" content="Cardápio digital do Restaurante Romã. Confira nossos pratos de massas, vinhos e a autêntica culinária italiana." />
+    <meta property="twitter:image" content="/logo.jpg" />
+
+    <script type="module">
+      if (import.meta.hot?.on) {
+        import.meta.hot.on('vite:error', (error) => {
+          if (error.err) {
+            console.error(
+              [error.err.message, error.err.frame].filter(Boolean).join('\n'),
+            )
+          }
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
